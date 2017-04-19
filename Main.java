@@ -14,6 +14,19 @@ public class Main {
             System.out.println(fibonacciRecursion(i));
 		}
 	}
+	
+	    public static void main2(String args[]) {
+		
+		//input to print Fibonacci series upto how many numbers
+        System.out.print("Enter number up to which Fibonacci series to print: ");
+        int number = new Scanner(System.in).nextInt();
+
+        System.out.println("\n\nFibonacci series up to " + number +" numbers : ");
+        //printing Fibonacci series up to number
+        for(int i=1; i<=number; i++){
+            System.out.println(fibonacciRecursion(i));
+		}
+	}
 
     // Java program for Fibonacci number using recursion.
     public static long fibonacciRecusion(long number){
